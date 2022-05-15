@@ -31,10 +31,13 @@ const MainContainer = () => {
     
     return(
     <div className ="main-container">
-    <FilmList films={films} onFilmClick={onFilmClick} /> 
     {selectedFilm ? 
         <FilmDetails selectedFilm={selectedFilm} /> : 
         null}
+    <FilmList films={films} onFilmClick={onFilmClick} /> 
+    {/* {selectedFilm ? 
+        <FilmDetails selectedFilm={selectedFilm} /> : 
+        null} */}
     {favouriteFilm ?
         <FavouriteFilms favouriteFilm={favouriteFilm} />
         :

@@ -8,12 +8,12 @@ const FavouriteFilms = ({favouriteFilm}) => {
     })
 
     return (
-        <div>
+        <container>
         <h2>Favourite Films</h2>
             <ul>
                 {favouritesItems}
             </ul>
-        </div>
+        </container>
     )
 }
 

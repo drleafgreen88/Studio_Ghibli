@@ -7,7 +7,11 @@ const Film = ({film, onFilmClick}) => {
     }
 
 
-    return <li onClick = {handleClick}>{film.title} ({film.release_date}), {film.original_title}</li>
+    // return <li onClick = {handleClick}>{film.title} ({film.release_date}), {film.original_title}</li>
+
+    return <div class="film_posters" onClick = {handleClick}>
+        <img id="image" src={film.image} />
+    </div> 
 }
 
 
