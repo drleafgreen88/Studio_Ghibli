@@ -12,10 +12,14 @@ const FilmSelect = ({films, onFilmSelected}) => {
     })
 
     return(
-        <select defaultValue="" onChange={handleChange}>
-            <option value="" selected>Choose Your Favourite Film</option>
-            {filmOptions}
-        </select>
+        <div>
+            <div class="clear"></div>
+            <h2>Favourite Films</h2>
+            <select defaultValue="" onChange={handleChange}>
+                <option value="" selected>Choose Your Favourite Film</option>
+                {filmOptions}
+            </select>
+        </div>
     )
 
 }

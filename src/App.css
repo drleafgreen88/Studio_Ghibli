@@ -53,7 +53,19 @@ img {
 }
 
 .film_posters{
-  display: flexbox;
   float:left;
+  padding: 20px;
 }
 
+.clear{
+  clear:both;
+}
+
+.film-image{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#movie_banner{
+  border: 20px solid
+
+}
